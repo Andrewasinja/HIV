@@ -1,0 +1,207 @@
+{
+  "app": {
+    "name": "Manya Obulabe Bwo",
+    "short": "Okwekebera ku siriimu",
+    "tagline": "Okwekebera okwangu era okw'ekyama ku bulabe bwa siriimu"
+  },
+  "nav": {
+    "home": "Awaka",
+    "about": "Ebikwata ku nkola eno",
+    "language": "Olulimi"
+  },
+  "common": {
+    "next": "Ekiddako",
+    "back": "Ddayo",
+    "yes": "Yee",
+    "no": "Nedda",
+    "error": "Waliwo ekitagenze bulungi. Kebera intaneti yo ogezeeko nate.",
+    "retry": "Gezaako nate"
+  },
+  "home": {
+    "title": "Manya obulabe bwo obwa siriimu mu ddakiika nga emu",
+    "intro": "Ddamu ebibuuzo 9 ebyangu ku bulamu bwo n'empisa zo. Tujja kukulaga obulabe bwo, ekibwongera, n'ky'osobola okukola.",
+    "pills": ["Ddakiika nga emu", "Tewali akumanya", "Kya bwereere"],
+    "howTitle": "Bw'ekola",
+    "steps": [
+      "Ddamu ebibuuzo 9 ebimpi",
+      "Laba obulabe bwo: Butono, Bwa wakati oba Bungi",
+      "Funa amagezi amangu ku ky'okukola"
+    ],
+    "privacyTitle": "Ebyama byo bikuumiddwa",
+    "privacy": "Tetubuuza linnya, nnamba ya ssimu wadde okuyingira. Eby'oddamu tebisobola kukuzuulibwamu.",
+    "disclaimer": "Kino kya kwekebera bwekebezi, si kukeberebwa siriimu. Okukeberebwa ku ddwaliro kwokka kwe kusobola okukubuulira embeera yo.",
+    "start": "Tandika okwekebera"
+  },
+  "screening": {
+    "progress": "Ekibuuzo {n} ku {total}",
+    "submitting": "Tukebera by'oddamu..."
+  },
+  "questions": {
+    "age": {
+      "q": "Olina emyaka emeka?",
+      "help": "Wandiika emyaka gyo ({min} okutuuka ku {max}).",
+      "invalid": "Wandiika emyaka wakati wa {min} ne {max}.",
+      "label": "Emyaka"
+    },
+    "marital": {
+      "q": "Oli mu mbeera ki ey'obufumbo?",
+      "label": "Obufumbo",
+      "options": {
+        "unmarried": "Sinnayingira bufumbo",
+        "married": "Ndi mufumbo",
+        "cohabiting": "Tubeera wamu naye tetunnafumbiriganwa",
+        "divorced": "Twayawukana",
+        "widowed": "Ndi nnamwandu"
+      }
+    },
+    "education": {
+      "q": "Wasoma kutuuka ku ddaala ki?",
+      "label": "Okusoma",
+      "options": {
+        "illiteracy": "Sasoma",
+        "primary": "Pulayimale",
+        "junior_high": "Siniya (S1 - S4)",
+        "senior_high": "Siniya (S5 - S6)",
+        "college": "Ttendekero oba yunivasite"
+      }
+    },
+    "orientation": {
+      "q": "Oyagala kwegatta na ani?",
+      "help": "Kino kikozesebwa kubala bulabe bwokka, tekiterekebwa n'akatono.",
+      "label": "Gw'oyagala",
+      "options": {
+        "heterosexual": "Ow'ekikula ekirala",
+        "homosexual": "Ow'ekikula kyange",
+        "bisexual": "Ebikula byombi"
+      }
+    },
+    "place": {
+      "q": "Abo b'oyagala nabo otera kubasisinkana wa?",
+      "label": "Gy'osisinkanira ab'omukwano",
+      "options": {
+        "internet": "Ku yintaneti oba apps",
+        "bar": "Mu baala oba kiraabu",
+        "public_bath": "Mu bunaabiro obwa lukale",
+        "park": "Mu paaka oba ebifo ebya lukale",
+        "others": "Awalala"
+      }
+    },
+    "std": {
+      "q": "Wali olwaddeko endwadde ezisiigibwa mu kwegatta (STI)?",
+      "help": "Okugeza kabotongo, enziku oba herpes.",
+      "label": "STI emabega",
+      "options": { "yes": "Yee", "no": "Nedda" }
+    },
+    "tested_past_year": {
+      "q": "Wakeberebwako siriimu mu myezi 12 egiyise?",
+      "label": "Okukeberebwa mu myezi 12",
+      "options": { "yes": "Yee", "no": "Nedda" }
+    },
+    "aids_education": {
+      "q": "Wali osomeseddwako ku siriimu?",
+      "help": "Okugeza ku ssomero, ku ddwaliro oba mu lukung'aana lw'ekitundu.",
+      "label": "Okusomesebwa ku siriimu",
+      "options": { "yes": "Yee", "no": "Nedda" }
+    },
+    "drugs": {
+      "q": "Okozesa ebiragalalagala?",
+      "label": "Ebiragalalagala",
+      "options": { "yes": "Yee", "no": "Nedda" }
+    }
+  },
+  "result": {
+    "title": "Ebivudde mu kwekebera",
+    "date": "Wekebedde nga {date}",
+    "levels": {
+      "low": {
+        "name": "Obulabe butono",
+        "desc": "By'oddamu biraga nti emikisa gyo egy'okufuna siriimu mitono. Weeyongere okwekuuma."
+      },
+      "medium": {
+        "name": "Obulabe bwa wakati",
+        "desc": "Ezimu ku mpisa zo zongera emikisa gy'okufuna siriimu. Kirungi okukeberebwa."
+      },
+      "high": {
+        "name": "Obulabe bungi",
+        "desc": "By'oddamu biraga emikisa mingi egy'okufuna siriimu. Genda okeberebwe mangu."
+      }
+    },
+    "factorsTitle": "Ebyongera obulabe bwo",
+    "noFactors": "Tewali ku by'oddamu kyeyolekera ng'ekyongera ennyo obulabe.",
+    "tips": {
+      "std": "Genda ku ddwaliro bakukebere era bakujjanjabe STI. STI ezitajjanjabiddwa zifuula siriimu nnyangu okukwata.",
+      "tested_past_year": "Keberebwa siriimu waakiri omulundi gumu buli mwaka. Kya bwereere mu malwaliro mangi era kitwala ddakiika nga 20.",
+      "aids_education": "Yiga ebikulu: siriimu bw'asaasaana, kondomu bw'ekukuuma, ne PrEP ne PEP bwe bikola. Buuza ku ddwaliro lyonna.",
+      "place": "Ab'omukwano abasisinkanibwa bwe batyo bakwatagana n'obulabe obw'amaanyi obwa siriimu. Bulijjo kozesa kondomu era buuza omusawo ku PrEP.",
+      "background": "Kino kitundu ku mbeera yo era tekikyusibwa, naye kitegeeza nti okukeberebwa buli kiseera ne kondomu bikulu nnyo gy'oli."
+    },
+    "nextTitle": "Ky'okukola ekiddako",
+    "next": {
+      "low": [
+        "Weeyongere okukozesa kondomu buli mulundi.",
+        "Keberebwa siriimu omulundi gumu buli mwaka.",
+        "Buulira mikwano gyo by'omanyi ku siriimu."
+      ],
+      "medium": [
+        "Keberebwa siriimu mu wiiki ntono eziddako.",
+        "Kozesa kondomu buli lw'oyegatta.",
+        "Buuza omusawo oba PrEP ekusaanidde."
+      ],
+      "high": [
+        "Keberebwa siriimu mangu ddala. Kya bwereere era kya kyama.",
+        "Buuza omusawo ku PrEP, empeke emira buli lunaku eziyiza siriimu.",
+        "Bw'oba weegasse mu ngeri ey'obulabe mu nnaku 3 eziyise, saba PEP mangu ddala.",
+        "Kozesa kondomu buli lw'oyegatta."
+      ]
+    },
+    "print": "Kuba mu kyapa oba tereka nga PDF",
+    "restart": "Tandika buggya",
+    "disclaimer": "Kino kiteeberezebwa okuva mu kwekebera, si kuzuula bulwadde. Okukeberebwa siriimu kwokka kwe kusobola okukubuulira embeera yo.",
+    "missing": "Tewannabaawo kivudde mu kwekebera. Sooka omalirize okwekebera.",
+    "goStart": "Genda ku kwekebera"
+  },
+  "voice": {
+    "listen": "Wuliriza ebivudde mu kwekebera",
+    "preparing": "Tutegeka eddoboozi...",
+    "reading": "Tusoma ebivudde mu kwekebera...",
+    "paused": "Kiyimiriziddwa",
+    "pause": "Yimiriza",
+    "resume": "Weeyongereyo",
+    "stop": "Komya",
+    "fallback": "Ekyuma kino tekirina ddoboozi lya Luganda, n'olwekyo tukozesa eddoboozi erisinga okulifaanana.",
+    "unsupported": "Browser eno tesobola kusoma mu ddoboozi."
+  },
+  "whatif": {
+    "title": "Singa ebintu bikyuka?",
+    "intro": "Kyusa by'oddamu wansi olabe obulabe bwo bwe bwandikyuse. Tewali kiterekebwa wano.",
+    "now": "Ekivuddemu kyo",
+    "would": "N'enkyukakyuka zino",
+    "reset": "Ddamu ku ntandikwa",
+    "checking": "Tukebera..."
+  },
+  "about": {
+    "title": "Ebikwata ku nkola eno",
+    "sections": [
+      {
+        "h": "Ky'ekola",
+        "p": "Enkola eno eteebereza omuntu bw'ayinza okuba mu bulabe bwa siriimu okusinziira ku mpisa ze eza buli lunaku n'embeera ye, nga gy'asisinkanira ab'omukwano, STI ze yalina, okukeberebwa n'emyaka. Eyamba abantu okumanya obulabe bwabwe nga bukyali n'okugenda okukeberebwa."
+      },
+      {
+        "h": "Bw'ekola",
+        "p": "Kompyuta yasomesebwa okuva mu by'abantu nga 700 abaddamu ebibuuzo era nga bakeberebwa siriimu. Etunuulira engeri by'oddamu gye bikwataganamu, so si kimu kyokka, n'ekuwa obulabe Butono, Bwa wakati oba Bungi."
+      },
+      {
+        "h": "By'etasobola kukola",
+        "p": "Tesobola kukubuulira oba olina siriimu. Esobola okukola ensobi. Yasomesebwa ku bantu batono abayinza obutafaanana ng'ab'ekitundu kyo. Bulijjo kakasa ng'okeberebwa ku ddwaliro."
+      },
+      {
+        "h": "Ku biragalalagala",
+        "p": "Mu by'abantu ebyakozesebwa, ebiragalalagala tebyalaga bulabe bweyongera nga okunoonyereza ku by'obulamu bwe kulaga. Olw'ensonga eyo, enkola eno teteekawo magezi gasinziira ku biragalalagala. Mu bulamu obwa ddala, okugabana empiso n'ebiragalalagala byongera obulabe bwa siriimu."
+      },
+      {
+        "h": "Ebyama byo",
+        "p": "Tetubuuza linnya lyo, nnamba ya ssimu wadde w'obeera. Tutereka by'oddamu byokka nga tebiriiko linnya (awatali myaka gyo egya ddala wadde gw'oyagala) okutegeera abantu bameka abali mu bulabe."
+      }
+    ]
+  }
+}

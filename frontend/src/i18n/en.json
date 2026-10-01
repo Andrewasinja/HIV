@@ -1,0 +1,207 @@
+{
+  "app": {
+    "name": "Know Your Risk",
+    "short": "HIV risk check",
+    "tagline": "A quick, private HIV risk check"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "language": "Language"
+  },
+  "common": {
+    "next": "Next",
+    "back": "Back",
+    "yes": "Yes",
+    "no": "No",
+    "error": "Something went wrong. Please check your connection and try again.",
+    "retry": "Try again"
+  },
+  "home": {
+    "title": "Find out your HIV risk in about 1 minute",
+    "intro": "Answer 9 simple questions about your life and habits. We will show your risk level, what is raising it, and what you can do next.",
+    "pills": ["About 1 minute", "100% anonymous", "Free"],
+    "howTitle": "How it works",
+    "steps": [
+      "Answer 9 short questions",
+      "See your risk level: Low, Medium or High",
+      "Get simple advice on what to do next"
+    ],
+    "privacyTitle": "Your privacy is protected",
+    "privacy": "No name, phone number or login. Your answers cannot be traced back to you.",
+    "disclaimer": "This is a screening tool, not an HIV test. Only a test at a health centre can tell your HIV status.",
+    "start": "Start the check"
+  },
+  "screening": {
+    "progress": "Question {n} of {total}",
+    "submitting": "Checking your answers..."
+  },
+  "questions": {
+    "age": {
+      "q": "How old are you?",
+      "help": "Enter your age in years ({min} to {max}).",
+      "invalid": "Please enter an age between {min} and {max}.",
+      "label": "Age"
+    },
+    "marital": {
+      "q": "What is your relationship status?",
+      "label": "Relationship status",
+      "options": {
+        "unmarried": "Single / never married",
+        "married": "Married",
+        "cohabiting": "Living together, not married",
+        "divorced": "Divorced or separated",
+        "widowed": "Widowed"
+      }
+    },
+    "education": {
+      "q": "What is the highest level of school you reached?",
+      "label": "Education",
+      "options": {
+        "illiteracy": "No formal schooling",
+        "primary": "Primary school",
+        "junior_high": "Secondary school (O-level)",
+        "senior_high": "Secondary school (A-level)",
+        "college": "College or university"
+      }
+    },
+    "orientation": {
+      "q": "Who are you sexually attracted to?",
+      "help": "This answer is used only to calculate your risk and is never saved.",
+      "label": "Attraction",
+      "options": {
+        "heterosexual": "The opposite sex",
+        "homosexual": "The same sex",
+        "bisexual": "Both sexes"
+      }
+    },
+    "place": {
+      "q": "Where do you usually meet sexual partners?",
+      "label": "Where you meet partners",
+      "options": {
+        "internet": "Internet or dating apps",
+        "bar": "Bars or clubs",
+        "public_bath": "Public baths or saunas",
+        "park": "Parks or public places",
+        "others": "Somewhere else"
+      }
+    },
+    "std": {
+      "q": "Have you ever had a sexually transmitted infection (STI)?",
+      "help": "For example syphilis, gonorrhoea or herpes.",
+      "label": "Past STI",
+      "options": { "yes": "Yes", "no": "No" }
+    },
+    "tested_past_year": {
+      "q": "Have you had an HIV test in the last 12 months?",
+      "label": "HIV test in last 12 months",
+      "options": { "yes": "Yes", "no": "No" }
+    },
+    "aids_education": {
+      "q": "Have you ever been taught about HIV/AIDS?",
+      "help": "For example at school, a health centre or a community talk.",
+      "label": "HIV/AIDS education",
+      "options": { "yes": "Yes", "no": "No" }
+    },
+    "drugs": {
+      "q": "Do you use recreational drugs?",
+      "label": "Drug use",
+      "options": { "yes": "Yes", "no": "No" }
+    }
+  },
+  "result": {
+    "title": "Your result",
+    "date": "Checked on {date}",
+    "levels": {
+      "low": {
+        "name": "Low risk",
+        "desc": "Your answers show a lower chance of HIV exposure. Keep protecting yourself."
+      },
+      "medium": {
+        "name": "Medium risk",
+        "desc": "Some of your habits increase your chance of HIV exposure. A test is a good idea."
+      },
+      "high": {
+        "name": "High risk",
+        "desc": "Your answers show a high chance of HIV exposure. Please get an HIV test soon."
+      }
+    },
+    "factorsTitle": "What is raising your risk",
+    "noFactors": "None of your answers stand out as a strong risk factor.",
+    "tips": {
+      "std": "Get checked and treated for STIs at a health centre. Untreated STIs make HIV much easier to catch.",
+      "tested_past_year": "Get an HIV test at least once a year. It is free at most health centres and takes about 20 minutes.",
+      "aids_education": "Learn the basics: how HIV spreads, how condoms protect you, and how PrEP and PEP work. Ask at any health centre.",
+      "place": "Partners met this way are linked to higher HIV risk. Always use condoms and ask a health worker about PrEP.",
+      "background": "This is part of your background and cannot be changed, but it means regular testing and condoms matter even more for you."
+    },
+    "nextTitle": "What to do next",
+    "next": {
+      "low": [
+        "Keep using condoms every time.",
+        "Get an HIV test once a year to stay sure.",
+        "Share what you know about HIV with friends."
+      ],
+      "medium": [
+        "Get an HIV test in the next few weeks.",
+        "Use condoms every time you have sex.",
+        "Ask a health worker if PrEP is right for you."
+      ],
+      "high": [
+        "Get an HIV test as soon as possible. It is free and confidential.",
+        "Ask a health worker about PrEP, a daily pill that prevents HIV.",
+        "If you had risky sex in the last 3 days, ask for PEP urgently.",
+        "Use condoms every time you have sex."
+      ]
+    },
+    "print": "Print or save as PDF",
+    "restart": "Start again",
+    "disclaimer": "This result is an estimate from a screening tool, not a diagnosis. Only an HIV test can tell your status.",
+    "missing": "No result yet. Please complete the check first.",
+    "goStart": "Go to the check"
+  },
+  "voice": {
+    "listen": "Listen to your result",
+    "preparing": "Preparing the voice...",
+    "reading": "Reading your result...",
+    "paused": "Paused",
+    "pause": "Pause",
+    "resume": "Continue",
+    "stop": "Stop",
+    "fallback": "This device has no Luganda voice, so the closest available voice is used.",
+    "unsupported": "Reading aloud is not supported in this browser."
+  },
+  "whatif": {
+    "title": "What if things changed?",
+    "intro": "Change your answers below to see how your risk level would change. Nothing here is saved.",
+    "now": "Your result",
+    "would": "With these changes",
+    "reset": "Reset",
+    "checking": "Checking..."
+  },
+  "about": {
+    "title": "About this tool",
+    "sections": [
+      {
+        "h": "What it does",
+        "p": "This tool estimates how vulnerable a person may be to HIV based on everyday behaviours and background, such as where they meet partners, past STIs, testing habits and age. It helps people notice their risk early and get tested."
+      },
+      {
+        "h": "How it works",
+        "p": "A machine learning model was trained on survey answers from about 700 people with known HIV test results. It looks at how your answers combine, not just at one answer, to give a Low, Medium or High risk level."
+      },
+      {
+        "h": "What it cannot do",
+        "p": "It cannot tell whether you have HIV. It can be wrong. It was trained on a small dataset that may not represent your community. Always confirm with an HIV test at a health centre."
+      },
+      {
+        "h": "About drug use",
+        "p": "In the data used to train the model, drug use did not show the increased risk that health research expects. Because of this, the tool never gives advice based on drug use. Sharing needles and drug use do increase HIV risk in real life."
+      },
+      {
+        "h": "Your privacy",
+        "p": "We never ask for your name, phone number or location. We only keep anonymous answers (without your exact age or sexual attraction) to understand how many people are at risk."
+      }
+    ]
+  }
+}
