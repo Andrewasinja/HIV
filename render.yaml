@@ -18,10 +18,8 @@ services:
       - key: SUNBIRD_API_TOKEN
         sync: false
       - key: CORS_ALLOWED_ORIGINS
-        sync: false
+        value: https://hiv-kab.vercel.app
       - key: CSRF_TRUSTED_ORIGINS
-        sync: false
-      - key: ALLOWED_HOSTS
-        sync: false
+        value: https://hiv-kab.vercel.app
       - key: DATABASE_URL
         sync: false
