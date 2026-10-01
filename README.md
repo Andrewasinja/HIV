@@ -140,7 +140,7 @@ git push -u origin main
 
 | Variable | Value |
 |---|---|
-| `VITE_API_URL` | `https://YOUR-APP.onrender.com/api` |
+| `VITE_API_URL` | `https://hiv-adyk.onrender.com/api` (also the built-in production default) |
 
 > `VITE_` variables are baked in at build time. After changing one, redeploy the frontend.
 
