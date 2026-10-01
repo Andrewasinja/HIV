@@ -90,6 +90,9 @@ DATABASES = {
         conn_health_checks=True,
     )
 }
+if DATABASES['default']['ENGINE'] == 'django.db.backends.postgresql':
+    # Poolers in transaction mode (Neon "-pooler" hosts, PgBouncer) break server-side cursors.
+    DATABASES['default']['DISABLE_SERVER_SIDE_CURSORS'] = True
 
 
 AUTH_PASSWORD_VALIDATORS = [

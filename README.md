@@ -129,7 +129,7 @@ git push -u origin main
 | `CSRF_TRUSTED_ORIGINS` | `https://YOUR-APP.onrender.com` | For /admin login |
 | `ALLOWED_HOSTS` | Extra custom domains only (Render's own hostname is added automatically) | No |
 | `PYTHON_VERSION` | `3.13` (set by the blueprint) | Yes |
-| `DATABASE_URL` | Postgres URL (Supabase / Render). Empty = SQLite, which is **wiped on every redeploy** | Recommended |
+| `DATABASE_URL` | Neon Postgres connection string (`postgresql://...neon.tech/neondb?sslmode=require&channel_binding=require`). Empty = SQLite, which is **wiped on every redeploy** | Yes |
 | `DJANGO_SUPERUSER_USERNAME`, `DJANGO_SUPERUSER_EMAIL`, `DJANGO_SUPERUSER_PASSWORD` | Creates an admin login during build | No |
 
 ### 3. Frontend on Vercel
