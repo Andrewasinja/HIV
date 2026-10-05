@@ -16,8 +16,8 @@ A simple, anonymous web app that estimates a person's HIV vulnerability (Low / M
 ## Project layout
 
 ```
-best_svm_model.pkl   trained SVM (sklearn 1.6.1)
-HIV_dataset.csv      training data (used by backend tests)
+tuned_best_svm_model.pkl   tuned SVM, RBF kernel, C=10 (sklearn 1.6.1)
+HIV_dataset.csv            training data (used by backend tests)
 backend/             Django + Django REST Framework API
 frontend/            React (Vite) app
 ```

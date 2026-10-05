@@ -155,7 +155,7 @@ CACHES = {
 }
 
 
-MODEL_PATH = Path(os.environ.get('MODEL_PATH', BASE_DIR.parent / 'best_svm_model.pkl'))
+MODEL_PATH = Path(os.environ.get('MODEL_PATH', BASE_DIR.parent / 'tuned_best_svm_model.pkl'))
 
 # Decision-function cut-offs for the SVM score (score < LOW -> low, score > HIGH -> high).
 RISK_THRESHOLDS = {'low': -0.5, 'high': 0.5}

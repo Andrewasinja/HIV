@@ -52,12 +52,12 @@ def load_dataset():
 class EncodingTests(TestCase):
     def test_dataset_accuracy_matches_training(self):
         # Typo rows ("dregree", "hetersexual") are folded into the correct category,
-        # so a small drift from the 86.2% seen with raw training encoding is expected.
+        # so a small drift from the raw training encoding is expected (tuned model: ~95.7%).
         rows, labels = load_dataset()
         scores = ml.score_many(rows)
         preds = ['positive' if s > 0 else 'negative' for s in scores]
         accuracy = sum(p == y for p, y in zip(preds, labels)) / len(labels)
-        self.assertGreater(accuracy, 0.83)
+        self.assertGreater(accuracy, 0.93)
 
     def test_baseline_answers_produce_no_category_columns(self):
         answers = {'age': 40, 'marital': 'cohabiting', 'education': 'college', 'std': 'no',
